@@ -1,0 +1,15 @@
+:root {
+    --bg-color:#003451;
+    --bar-color:#EE8115;
+    --bar-shadow: 4px 10px 40px 3px #000000;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+#navbar , #footer {
+    background-color:var(--bar-color);
+    box-shadow: var(--bar-shadow);
+    border-radius:20px;
+}
