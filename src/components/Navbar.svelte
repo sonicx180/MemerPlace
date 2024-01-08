@@ -15,7 +15,7 @@
 		padding:20px;
 	}
 	.nav-links {
-
-		float:right;
+       display:inline;
+	  padding-right : -20px;
 	}
 </style>
