@@ -11,4 +11,11 @@
 </div>
 
 <style>
+	#navbar {
+		padding:20px;
+	}
+	.nav-links {
+
+		float:right;
+	}
 </style>
