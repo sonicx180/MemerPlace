@@ -10,5 +10,7 @@
 </div>
 
 <style>
-	
+	#footer {
+		padding:20px;
+	}
 </style>
