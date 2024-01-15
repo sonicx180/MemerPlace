@@ -1,15 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Irish+Grover");
+@import url("https://fonts.googleapis.com/css?family=Inria+Sans");
+@import url("https://fonts.googleapis.com/css?family=Inika");
+
 :root {
-    --bg-color:#003451;
+    --bg-color:#01476d;
     --bar-color:#EE8115;
     --bar-shadow: 4px 10px 40px 3px #000000;
+    --logo-font: "Irish Grover", monospace;
+    --normal-font: "Inria Sans", Helvetica;
+    --footer-font:"Inika", Arial;
 }
 
 body {
     background-color: var(--bg-color);
+
 }
 
 a {
     text-decoration:none;
+}
+
+a:visited {
+    color:blue;
+}
+.logo {
+    font-family:var(--logo-font);
+    font-size:1.4rem;
 }
 #navbar , #footer {
     background-color:var(--bar-color);
