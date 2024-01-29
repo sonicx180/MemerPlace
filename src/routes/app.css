@@ -3,9 +3,9 @@
 @import url("https://fonts.googleapis.com/css?family=Inika");
 
 :root {
-    --bg-color:#01476d;
+    --bg-color:#003451;
     --bar-color:#EE8115;
-    --bar-shadow: 4px 10px 40px 3px #000000;
+    /* --bar-shadow: 1px 1px 2px 1px #3d8cb9;*/
     --logo-font: "Irish Grover", monospace;
     --normal-font: "Inria Sans", Helvetica;
     --footer-font:"Inika", Arial;
@@ -23,12 +23,18 @@ a {
 a:visited {
     color:blue;
 }
+
+h1 {
+    font-size:1.5rem;
+}
 .logo {
     font-family:var(--logo-font);
     font-size:1.4rem;
 }
 #navbar , #footer {
+    height:10%;
     background-color:var(--bar-color);
     box-shadow: var(--bar-shadow);
-    border-radius:20px;
+    border-radius:10px;
+    color:black !important;
 }

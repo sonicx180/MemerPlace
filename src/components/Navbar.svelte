@@ -13,10 +13,16 @@
 
 <style>
 	#navbar {
-		padding: 10px;
+		/* padding: 10px; */
+		position:sticky;
+	}
+	img {
+		transform: translateY(25%);
+		margin-left:10px;
 	}
 	.nav-links {
 		text-align: right;
 		transform:translateY(-110%);
+		margin-right:10px;
 	}
 </style>
